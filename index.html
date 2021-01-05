@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- For Android - Supported by Chrome, Firefox and Opera  -->
+  <meta name="theme-color" content="#F2F2F2">
+  <!-- For Windows Phones  -->
+  <meta name="msapplication-navbutton-color" content="#F2F2F2">
+  <!-- For iOS Safari  -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Google Fonts - Nunito Sans -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap" rel="stylesheet">
+  <!-- Bootstrap 4.3.1 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" id="theme-change" href="light-theme.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="globe.ico">
+  <!-- Fontawesome Icon Library -->
+  <script src="https://kit.fontawesome.com/9e4eccad88.js"></script>
+  <title>Where in the world? - REST Countries API</title>
+</head>
+
+<body class="p-0">
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark dark px-3 px-sm-4 px-sm-5 py-3">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img class="logo d-inline-block align-center mr-1" src="globe.svg" alt="logo">
+        Where in the world?
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="d-flex justify-content-around align-items-center mt-3 mt-sm-0">
+          <span id="help" data-toggle="modal" data-target="#help-info" class="theme navbar-text mt-0 mt-sm-0"><i class="fas fa-question-circle mr-2"></i>Help</span>
+          <span class="theme navbar-text ml-2 ml-md-4 mt-0 mt-sm-0"><i class="fas fa-palette mr-2"></i>Theme</span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Modal -->
+  <div class="modal fade" id="help-info" tabindex="-1" role="dialog" aria-labelledby="help" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Help</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>Search by Language</h5>
+          <p>You can search for a country by language by entering in the ISO 639-1 , 2-letter Language codes in the search bar. Search results will not be displayed if you search a Language by it's name. A complete list of ISO 639-1 Language Codes
+            is given below.</p>
+          <p><span class="card-title">Example:</span> The ISO 639-1 Code for Afrikanns is af.</p>
+          <div style="width: 100%; height: 300px; overflow-y: scroll;">
+            <table>
+              <thead>
+                <th style="width: 50%;">Languages</th>
+                <th style="width: 50%;">ISO 639-1 Code</th>
+              </thead>
+              <tbody id="languageCodes">
+              </tbody>
+            </table>
+          </div>
+          <h5 class="mt-3">Search by Currency</h5>
+          <p>You can search for a country by currency by entering in the ISO 4217 , 3-letter Currency codes in the search bar. Search results will not be displayed if you search a Currency by it's name. A complete list of ISO 4217 Currency Codes is
+            given below.</p>
+          <p><span class="card-title">Example:</span> The ISO 4217 Code for Euro is EUR.</p>
+          <div style="width: 100%; height: 300px; overflow-y: scroll;">
+            <table>
+              <col width="60%">
+              <col width="40%">
+              <thead>
+                <th style="width: 50%;">Currency</th>
+                <th style="width: 50%;">ISO 4217 Code</th>
+              </thead>
+              <tbody id="currencyCodes">
+              </tbody>
+            </table>
+          </div>
+          <h5 class="mt-3">Search by Regional Bloc</h5>
+          <p>The following Regional Blocs are supported:</p>
+          <ul>
+            <li>EU (European Union)</li>
+            <li>EFTA (European Free Trade Association)
+            <li>CARICOM (Caribbean Community)</li>
+            <li>PA (Pacific Alliance)</li>
+            <li>AU (African Union)</li>
+            <li>USAN (Union of South American Nations)</li>
+            <li>EEU (Eurasian Economic Union)</li>
+            <li>AL (Arab League)</li>
+            <li>ASEAN (Association of Southeast Asian Nations)</li>
+            <li>CAIS (Central American Integration System)</li>
+            <li>CEFTA (Central European Free Trade Agreement)</li>
+            <li>NAFTA (North American Free Trade Agreement)</li>
+            <li>SAARC (South Asian Association for Regional Cooperation)</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <section>
+    <div class="container-fluid px-4 px-sm-5 mt-4 mt-sm-5">
+      <!-- Search Bar and Filter -->
+      <section>
+        <div class="row">
+          <div class="col-12 col-md-6" id="srch">
+            <div class="col-md-10 col-lg-8 px-0">
+              <div class="input-group mb-3" id="text-field">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="search-icon"><i class="fas fa-search"></i></span>
+                </div>
+                <input id="country-select" type="text" pattern="^[a-zA-Z\s]*$" class="form-control" placeholder="Search by Country" autocomplete="off">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="cross-icon"><i class="fas fa-times-circle"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 mt-md-0" id="regionList">
+            <div class="input-group mb-3 d-flex justify-content-start justify-content-md-end">
+              <div class="dropdown">
+                <div class="btn-group" role="group" id="btn-group">
+                  <div class="btn-group border-right-search-filter" role="group">
+                    <button class="btn dropdown-toggle px-2" type="button" id="dropdownSearchButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownSearchButton">
+                      <a class="dropdown-item disabled" href="#">Search by</a>
+                      <a class="dropdown-item" href="##">Country</a>
+                      <a class="dropdown-item" href="##">Capital</a>
+                      <a class="dropdown-item" href="##">Calling Codes</a>
+                      <a class="dropdown-item" href="##">Language</a>
+                      <a class="dropdown-item" href="##">Currency</a>
+                      <a class="dropdown-item" href="##">Regional Bloc</a>
+                    </div>
+                  </div>
+                  <div class="btn-group border-right-search-filter" role="group">
+                    <button class="btn dropdown-toggle px-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item disabled" href="#">Filter by Region</a>
+                      <a class="dropdown-item" href="#">Africa</a>
+                      <a class="dropdown-item" href="#">Americas</a>
+                      <a class="dropdown-item" href="#">Asia</a>
+                      <a class="dropdown-item" href="#">Europe</a>
+                      <a class="dropdown-item" href="#">Oceania</a>
+                      <a class="dropdown-item" href="#">Polar</a>
+                    </div>
+                  </div>
+                  <button class="btn btn-light px-2" type="button" id="removeFilter">
+                    <span class="fa-stack fa-2x" style="font-size: 13px">
+                      <i class="fas fa-filter fa-stack-1x"></i>
+                      <i class="fas fa-ban fa-stack-2x"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto">
+            <div class="spinner-border text-secondary" id="spinner" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class="card-columns" id="country-list"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Display Search Results, Error Messages and Loader -->
+      <section>
+        <div id="error-message"></div>
+        <!-- <div class="d-flex justify-content-center">
+          <div class="spinner-border text-secondary" id="spinner" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div> -->
+      </section>
+      <!-- Display Extra Details -->
+      <section>
+        <div class="details" id="extra">
+          <nav class="navbar navbar-expand-sm navbar-dark dark px-3 px-sm-5 py-3">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img class="logo d-inline-block align-center mr-1" src="globe.svg" alt="logo">
+              Where in the world?
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="d-flex justify-content-around align-items-center mt-3 mt-sm-0">
+                <span id="helpTwo" data-toggle="modal" data-target="#help-info" class="theme navbar-text mt-0 mt-sm-0"><i class="fas fa-question-circle mr-2"></i>Help</span>
+                <span class="theme navbar-text ml-2 mt-0 ml-md-4 mt-sm-0"><i class="fas fa-palette mr-2"></i>Theme</span>
+              </div>
+            </div>
+          </nav>
+          <div class="px-3 px-sm-5 mt-5 pt-0 pt-sm-3">
+            <button id="back" type="button" class="btn btn-dark px-4 py-2"><i class="fas fa-arrow-left mr-2"></i> Back</button>
+            <div id="detail-display" class="row my-5 pt-0 align-items-start align-items-lg-center">
+              <div class="col-lg-5 text-center px-3 px-lg-4">
+                <img id="flag" class="img-fluid">
+              </div>
+              <div class="col-lg-7 mt-4 mt-lg-0 pt-sm-2 px-3 pl-lg-5">
+                <h5 class="country-title mb-4"></h5>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <ul class="pl-0">
+                      <li id="natName" class="value"></li>
+                      <li id="pop" class="value"></li>
+                      <li id="region" class="value"></li>
+                      <li id="subRegion" class="value"></li>
+                      <li id="capital" class="value"></li>
+                      <li id="area" class="value"></li>
+                      <li id="calling-codes" class="value"></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="pl-0">
+                      <li id="domain" class="value"></li>
+                      <li id="currency" class="value"></li>
+                      <li id="language" class="value"></li>
+                      <li id="coord" class="value"></li>
+                      <li id="timezone" class="value"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="neighbour" class="my-4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer px-3 px-sm-5 py-5">
+            <h3 class="disclaimer text-center mb-4">DISCLAIMER</h3>
+            <p class="mb-0">The data displayed on this page is provided by <a class="footer-link link-border" href="https://restcountries.eu/" target="_blank">REST Countries</a> . <span class="footer-link">Where in the World?</span> is not
+              responsible for, and
+              expressly disclaims
+              all liability for, damages of any
+              kind arising
+              out of use,
+              reference to, or reliance on any information contained within this website.</p>
+          </div>
+        </div>
+      </section>
+      <!-- display back to top button -->
+      <section>
+        <div id="back-to-top" class="d-none">
+          <a href="#"><i class="fas fa-chevron-circle-up"></i></a>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <footer>
+    <div class="footer px-3 px-sm-5 py-5">
+      <h3 class="disclaimer text-center mb-4">DISCLAIMER</h3>
+      <p class="mb-0">The data displayed on this page is provided by <a class="footer-link link-border" href="https://restcountries.eu/" target="_blank">REST Countries</a> . <span class="footer-link">Where in the World?</span> is not
+        responsible for, and
+        expressly disclaims
+        all liability for, damages of any
+        kind arising
+        out of use,
+        reference to, or reliance on any information contained within this website.</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      document.querySelector("div.spinner-border").classList.add("d-none");
+    }
+  </script>
+</body>
+
+</html>

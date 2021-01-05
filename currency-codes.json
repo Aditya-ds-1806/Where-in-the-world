@@ -1,0 +1,1162 @@
+[{
+  "Alphabetic_Code": "AFN",
+  "Currency": "Afghani"
+}, {
+  "Alphabetic_Code": "EUR",
+  "Currency": "Euro"
+}, {
+  "Alphabetic_Code": "ALL",
+  "Currency": "Lek"
+}, {
+  "Alphabetic_Code": "DZD",
+  "Currency": "Algerian Dinar"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "AOA",
+  "Currency": "Kwanza"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "ARS",
+  "Currency": "Argentine Peso"
+}, {
+  "Alphabetic_Code": "AMD",
+  "Currency": "Armenian Dram"
+}, {
+  "Alphabetic_Code": "AWG",
+  "Currency": "Aruban Florin"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "AZN",
+  "Currency": "Azerbaijan Manat"
+}, {
+  "Alphabetic_Code": "BSD",
+  "Currency": "Bahamian Dollar"
+}, {
+  "Alphabetic_Code": "BHD",
+  "Currency": "Bahraini Dinar"
+}, {
+  "Alphabetic_Code": "BDT",
+  "Currency": "Taka"
+}, {
+  "Alphabetic_Code": "BBD",
+  "Currency": "Barbados Dollar"
+}, {
+  "Alphabetic_Code": "BYN",
+  "Currency": "Belarusian Ruble"
+}, {
+  "Alphabetic_Code": "BZD",
+  "Currency": "Belize Dollar"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "BMD",
+  "Currency": "Bermudian Dollar"
+}, {
+  "Alphabetic_Code": "INR",
+  "Currency": "Indian Rupee"
+}, {
+  "Alphabetic_Code": "BTN",
+  "Currency": "Ngultrum"
+}, {
+  "Alphabetic_Code": "BOB",
+  "Currency": "Boliviano"
+}, {
+  "Alphabetic_Code": "BOV",
+  "Currency": "Mvdol"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "BAM",
+  "Currency": "Convertible Mark"
+}, {
+  "Alphabetic_Code": "BWP",
+  "Currency": "Pula"
+}, {
+  "Alphabetic_Code": "NOK",
+  "Currency": "Norwegian Krone"
+}, {
+  "Alphabetic_Code": "BRL",
+  "Currency": "Brazilian Real"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "BND",
+  "Currency": "Brunei Dollar"
+}, {
+  "Alphabetic_Code": "BGN",
+  "Currency": "Bulgarian Lev"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "BIF",
+  "Currency": "Burundi Franc"
+}, {
+  "Alphabetic_Code": "CVE",
+  "Currency": "Cabo Verde Escudo"
+}, {
+  "Alphabetic_Code": "KHR",
+  "Currency": "Riel"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "CAD",
+  "Currency": "Canadian Dollar"
+}, {
+  "Alphabetic_Code": "KYD",
+  "Currency": "Cayman Islands Dollar"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "CLP",
+  "Currency": "Chilean Peso"
+}, {
+  "Alphabetic_Code": "CLF",
+  "Currency": "Unidad de Fomento"
+}, {
+  "Alphabetic_Code": "CNY",
+  "Currency": "Yuan Renminbi"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "COP",
+  "Currency": "Colombian Peso"
+}, {
+  "Alphabetic_Code": "COU",
+  "Currency": "Unidad de Valor Real"
+}, {
+  "Alphabetic_Code": "KMF",
+  "Currency": "Comorian Franc"
+}, {
+  "Alphabetic_Code": "CDF",
+  "Currency": "Congolese Franc"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "NZD",
+  "Currency": "New Zealand Dollar"
+}, {
+  "Alphabetic_Code": "CRC",
+  "Currency": "Costa Rican Colon"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "HRK",
+  "Currency": "Kuna"
+}, {
+  "Alphabetic_Code": "CUP",
+  "Currency": "Cuban Peso"
+}, {
+  "Alphabetic_Code": "CUC",
+  "Currency": "Peso Convertible"
+}, {
+  "Alphabetic_Code": "ANG",
+  "Currency": "Netherlands Antillean Guilder"
+}, {
+  "Alphabetic_Code": "CZK",
+  "Currency": "Czech Koruna"
+}, {
+  "Alphabetic_Code": "DKK",
+  "Currency": "Danish Krone"
+}, {
+  "Alphabetic_Code": "DJF",
+  "Currency": "Djibouti Franc"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "DOP",
+  "Currency": "Dominican Peso"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "EGP",
+  "Currency": "Egyptian Pound"
+}, {
+  "Alphabetic_Code": "SVC",
+  "Currency": "El Salvador Colon"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "ERN",
+  "Currency": "Nakfa"
+}, {
+  "Alphabetic_Code": "ETB",
+  "Currency": "Ethiopian Birr"
+}, {
+  "Alphabetic_Code": "FKP",
+  "Currency": "Falkland Islands Pound"
+}, {
+  "Alphabetic_Code": "DKK",
+  "Currency": "Danish Krone"
+}, {
+  "Alphabetic_Code": "FJD",
+  "Currency": "Fiji Dollar"
+}, {
+  "Alphabetic_Code": "XPF",
+  "Currency": "CFP Franc"
+}, {
+  "Alphabetic_Code": "XAF",
+  "Currency": "CFA Franc BEAC"
+}, {
+  "Alphabetic_Code": "GMD",
+  "Currency": "Dalasi"
+}, {
+  "Alphabetic_Code": "GEL",
+  "Currency": "Lari"
+}, {
+  "Alphabetic_Code": "GHS",
+  "Currency": "Ghana Cedi"
+}, {
+  "Alphabetic_Code": "GIP",
+  "Currency": "Gibraltar Pound"
+}, {
+  "Alphabetic_Code": "DKK",
+  "Currency": "Danish Krone"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "GTQ",
+  "Currency": "Quetzal"
+}, {
+  "Alphabetic_Code": "GBP",
+  "Currency": "Pound Sterling"
+}, {
+  "Alphabetic_Code": "GNF",
+  "Currency": "Guinean Franc"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "GYD",
+  "Currency": "Guyana Dollar"
+}, {
+  "Alphabetic_Code": "HTG",
+  "Currency": "Gourde"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "HNL",
+  "Currency": "Lempira"
+}, {
+  "Alphabetic_Code": "HKD",
+  "Currency": "Hong Kong Dollar"
+}, {
+  "Alphabetic_Code": "HUF",
+  "Currency": "Forint"
+}, {
+  "Alphabetic_Code": "ISK",
+  "Currency": "Iceland Krona"
+}, {
+  "Alphabetic_Code": "INR",
+  "Currency": "Indian Rupee"
+}, {
+  "Alphabetic_Code": "IDR",
+  "Currency": "Rupiah"
+}, {
+  "Alphabetic_Code": "XDR",
+  "Currency": "SDR (Special Drawing Right)"
+}, {
+  "Alphabetic_Code": "IRR",
+  "Currency": "Iranian Rial"
+}, {
+  "Alphabetic_Code": "IQD",
+  "Currency": "Iraqi Dinar"
+}, {
+  "Alphabetic_Code": "GBP",
+  "Currency": "Pound Sterling"
+}, {
+  "Alphabetic_Code": "ILS",
+  "Currency": "New Israeli Sheqel"
+}, {
+  "Alphabetic_Code": "JMD",
+  "Currency": "Jamaican Dollar"
+}, {
+  "Alphabetic_Code": "JPY",
+  "Currency": "Yen"
+}, {
+  "Alphabetic_Code": "GBP",
+  "Currency": "Pound Sterling"
+}, {
+  "Alphabetic_Code": "JOD",
+  "Currency": "Jordanian Dinar"
+}, {
+  "Alphabetic_Code": "KZT",
+  "Currency": "Tenge"
+}, {
+  "Alphabetic_Code": "KES",
+  "Currency": "Kenyan Shilling"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "KPW",
+  "Currency": "North Korean Won"
+}, {
+  "Alphabetic_Code": "KRW",
+  "Currency": "Won"
+}, {
+  "Alphabetic_Code": "KWD",
+  "Currency": "Kuwaiti Dinar"
+}, {
+  "Alphabetic_Code": "KGS",
+  "Currency": "Som"
+}, {
+  "Alphabetic_Code": "LAK",
+  "Currency": "Lao Kip"
+}, {
+  "Alphabetic_Code": "LBP",
+  "Currency": "Lebanese Pound"
+}, {
+  "Alphabetic_Code": "LSL",
+  "Currency": "Loti"
+}, {
+  "Alphabetic_Code": "ZAR",
+  "Currency": "Rand"
+}, {
+  "Alphabetic_Code": "LRD",
+  "Currency": "Liberian Dollar"
+}, {
+  "Alphabetic_Code": "LYD",
+  "Currency": "Libyan Dinar"
+}, {
+  "Alphabetic_Code": "CHF",
+  "Currency": "Swiss Franc"
+}, {
+  "Alphabetic_Code": "MOP",
+  "Currency": "Pataca"
+}, {
+  "Alphabetic_Code": "MKD",
+  "Currency": "Denar"
+}, {
+  "Alphabetic_Code": "MGA",
+  "Currency": "Malagasy Ariary"
+}, {
+  "Alphabetic_Code": "MWK",
+  "Currency": "Malawi Kwacha"
+}, {
+  "Alphabetic_Code": "MYR",
+  "Currency": "Malaysian Ringgit"
+}, {
+  "Alphabetic_Code": "MVR",
+  "Currency": "Rufiyaa"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "MRO",
+  "Currency": "Ouguiya"
+}, {
+  "Alphabetic_Code": "MUR",
+  "Currency": "Mauritius Rupee"
+}, {
+  "Alphabetic_Code": "XUA",
+  "Currency": "ADB Unit of Account"
+}, {
+  "Alphabetic_Code": "MXN",
+  "Currency": "Mexican Peso"
+}, {
+  "Alphabetic_Code": "MXV",
+  "Currency": "Mexican Unidad de Inversion (UDI)"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "MDL",
+  "Currency": "Moldovan Leu"
+}, {
+  "Alphabetic_Code": "MNT",
+  "Currency": "Tugrik"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "MAD",
+  "Currency": "Moroccan Dirham"
+}, {
+  "Alphabetic_Code": "MZN",
+  "Currency": "Mozambique Metical"
+}, {
+  "Alphabetic_Code": "MMK",
+  "Currency": "Kyat"
+}, {
+  "Alphabetic_Code": "NAD",
+  "Currency": "Namibia Dollar"
+}, {
+  "Alphabetic_Code": "ZAR",
+  "Currency": "Rand"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "NPR",
+  "Currency": "Nepalese Rupee"
+}, {
+  "Alphabetic_Code": "XPF",
+  "Currency": "CFP Franc"
+}, {
+  "Alphabetic_Code": "NZD",
+  "Currency": "New Zealand Dollar"
+}, {
+  "Alphabetic_Code": "NIO",
+  "Currency": "Cordoba Oro"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "NGN",
+  "Currency": "Naira"
+}, {
+  "Alphabetic_Code": "NZD",
+  "Currency": "New Zealand Dollar"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "NOK",
+  "Currency": "Norwegian Krone"
+}, {
+  "Alphabetic_Code": "OMR",
+  "Currency": "Rial Omani"
+}, {
+  "Alphabetic_Code": "PKR",
+  "Currency": "Pakistan Rupee"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "PAB",
+  "Currency": "Balboa"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "PGK",
+  "Currency": "Kina"
+}, {
+  "Alphabetic_Code": "PYG",
+  "Currency": "Guarani"
+}, {
+  "Alphabetic_Code": "PEN",
+  "Currency": "Sol"
+}, {
+  "Alphabetic_Code": "PHP",
+  "Currency": "Philippine Piso"
+}, {
+  "Alphabetic_Code": "NZD",
+  "Currency": "New Zealand Dollar"
+}, {
+  "Alphabetic_Code": "PLN",
+  "Currency": "Zloty"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "QAR",
+  "Currency": "Qatari Rial"
+}, {
+  "Alphabetic_Code": "RON",
+  "Currency": "Romanian Leu"
+}, {
+  "Alphabetic_Code": "RUB",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "RWF",
+  "Currency": "Rwanda Franc"
+}, {
+  "Alphabetic_Code": "SHP",
+  "Currency": "Saint Helena Pound"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "XCD",
+  "Currency": "East Caribbean Dollar"
+}, {
+  "Alphabetic_Code": "WST",
+  "Currency": "Tala"
+}, {
+  "Alphabetic_Code": "STD",
+  "Currency": "Dobra"
+}, {
+  "Alphabetic_Code": "SAR",
+  "Currency": "Saudi Riyal"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "RSD",
+  "Currency": "Serbian Dinar"
+}, {
+  "Alphabetic_Code": "SCR",
+  "Currency": "Seychelles Rupee"
+}, {
+  "Alphabetic_Code": "SLL",
+  "Currency": "Leone"
+}, {
+  "Alphabetic_Code": "SGD",
+  "Currency": "Singapore Dollar"
+}, {
+  "Alphabetic_Code": "ANG",
+  "Currency": "Netherlands Antillean Guilder"
+}, {
+  "Alphabetic_Code": "XSU",
+  "Currency": "Sucre"
+}, {
+  "Alphabetic_Code": "SBD",
+  "Currency": "Solomon Islands Dollar"
+}, {
+  "Alphabetic_Code": "SOS",
+  "Currency": "Somali Shilling"
+}, {
+  "Alphabetic_Code": "ZAR",
+  "Currency": "Rand"
+}, {
+  "Alphabetic_Code": "SSP",
+  "Currency": "South Sudanese Pound"
+}, {
+  "Alphabetic_Code": "LKR",
+  "Currency": "Sri Lanka Rupee"
+}, {
+  "Alphabetic_Code": "SDG",
+  "Currency": "Sudanese Pound"
+}, {
+  "Alphabetic_Code": "SRD",
+  "Currency": "Surinam Dollar"
+}, {
+  "Alphabetic_Code": "NOK",
+  "Currency": "Norwegian Krone"
+}, {
+  "Alphabetic_Code": "SZL",
+  "Currency": "Lilangeni"
+}, {
+  "Alphabetic_Code": "SEK",
+  "Currency": "Swedish Krona"
+}, {
+  "Alphabetic_Code": "CHF",
+  "Currency": "Swiss Franc"
+}, {
+  "Alphabetic_Code": "CHE",
+  "Currency": "WIR Euro"
+}, {
+  "Alphabetic_Code": "CHW",
+  "Currency": "WIR Franc"
+}, {
+  "Alphabetic_Code": "SYP",
+  "Currency": "Syrian Pound"
+}, {
+  "Alphabetic_Code": "TWD",
+  "Currency": "New Taiwan Dollar"
+}, {
+  "Alphabetic_Code": "TJS",
+  "Currency": "Somoni"
+}, {
+  "Alphabetic_Code": "TZS",
+  "Currency": "Tanzanian Shilling"
+}, {
+  "Alphabetic_Code": "THB",
+  "Currency": "Baht"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "XOF",
+  "Currency": "CFA Franc BCEAO"
+}, {
+  "Alphabetic_Code": "NZD",
+  "Currency": "New Zealand Dollar"
+}, {
+  "Alphabetic_Code": "TOP",
+  "Currency": "Pa\u2019anga"
+}, {
+  "Alphabetic_Code": "TTD",
+  "Currency": "Trinidad and Tobago Dollar"
+}, {
+  "Alphabetic_Code": "TND",
+  "Currency": "Tunisian Dinar"
+}, {
+  "Alphabetic_Code": "TRY",
+  "Currency": "Turkish Lira"
+}, {
+  "Alphabetic_Code": "TMT",
+  "Currency": "Turkmenistan New Manat"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "AUD",
+  "Currency": "Australian Dollar"
+}, {
+  "Alphabetic_Code": "UGX",
+  "Currency": "Uganda Shilling"
+}, {
+  "Alphabetic_Code": "UAH",
+  "Currency": "Hryvnia"
+}, {
+  "Alphabetic_Code": "AED",
+  "Currency": "UAE Dirham"
+}, {
+  "Alphabetic_Code": "GBP",
+  "Currency": "Pound Sterling"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "USN",
+  "Currency": "US Dollar (Next day)"
+}, {
+  "Alphabetic_Code": "UYU",
+  "Currency": "Peso Uruguayo"
+}, {
+  "Alphabetic_Code": "UYI",
+  "Currency": "Uruguay Peso en Unidades Indexadas (URUIURUI)"
+}, {
+  "Alphabetic_Code": "UZS",
+  "Currency": "Uzbekistan Sum"
+}, {
+  "Alphabetic_Code": "VUV",
+  "Currency": "Vatu"
+}, {
+  "Alphabetic_Code": "VEF",
+  "Currency": "Bol\u00edvar"
+}, {
+  "Alphabetic_Code": "VND",
+  "Currency": "Dong"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "USD",
+  "Currency": "US Dollar"
+}, {
+  "Alphabetic_Code": "XPF",
+  "Currency": "CFP Franc"
+}, {
+  "Alphabetic_Code": "MAD",
+  "Currency": "Moroccan Dirham"
+}, {
+  "Alphabetic_Code": "YER",
+  "Currency": "Yemeni Rial"
+}, {
+  "Alphabetic_Code": "ZMW",
+  "Currency": "Zambian Kwacha"
+}, {
+  "Alphabetic_Code": "ZWL",
+  "Currency": "Zimbabwe Dollar"
+}, {
+  "Alphabetic_Code": "XBA",
+  "Currency": "Bond Markets Unit European Composite Unit (EURCO)"
+}, {
+  "Alphabetic_Code": "XBB",
+  "Currency": "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
+}, {
+  "Alphabetic_Code": "XBC",
+  "Currency": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
+}, {
+  "Alphabetic_Code": "XBD",
+  "Currency": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
+}, {
+  "Alphabetic_Code": "XTS",
+  "Currency": "Codes specifically reserved for testing purposes"
+}, {
+  "Alphabetic_Code": "XXX",
+  "Currency": "The codes assigned for transactions where no currency is involved"
+}, {
+  "Alphabetic_Code": "XAU",
+  "Currency": "Gold"
+}, {
+  "Alphabetic_Code": "XPD",
+  "Currency": "Palladium"
+}, {
+  "Alphabetic_Code": "XPT",
+  "Currency": "Platinum"
+}, {
+  "Alphabetic_Code": "XAG",
+  "Currency": "Silver"
+}, {
+  "Alphabetic_Code": "AFA",
+  "Currency": "Afghani"
+}, {
+  "Alphabetic_Code": "FIM",
+  "Currency": "Markka"
+}, {
+  "Alphabetic_Code": "ALK",
+  "Currency": "Old Lek"
+}, {
+  "Alphabetic_Code": "ADP",
+  "Currency": "Andorran Peseta"
+}, {
+  "Alphabetic_Code": "ESP",
+  "Currency": "Spanish Peseta"
+}, {
+  "Alphabetic_Code": "FRF",
+  "Currency": "French Franc"
+}, {
+  "Alphabetic_Code": "AOK",
+  "Currency": "Kwanza"
+}, {
+  "Alphabetic_Code": "AON",
+  "Currency": "New Kwanza"
+}, {
+  "Alphabetic_Code": "AOR",
+  "Currency": "Kwanza Reajustado"
+}, {
+  "Alphabetic_Code": "ARA",
+  "Currency": "Austral"
+}, {
+  "Alphabetic_Code": "ARP",
+  "Currency": "Peso Argentino"
+}, {
+  "Alphabetic_Code": "ARY",
+  "Currency": "Peso"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "ATS",
+  "Currency": "Schilling"
+}, {
+  "Alphabetic_Code": "AYM",
+  "Currency": "Azerbaijan Manat"
+}, {
+  "Alphabetic_Code": "AZM",
+  "Currency": "Azerbaijanian Manat"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "BYR",
+  "Currency": "Belarusian Ruble"
+}, {
+  "Alphabetic_Code": "BYB",
+  "Currency": "Belarusian Ruble"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "BEC",
+  "Currency": "Convertible Franc"
+}, {
+  "Alphabetic_Code": "BEF",
+  "Currency": "Belgian Franc"
+}, {
+  "Alphabetic_Code": "BEL",
+  "Currency": "Financial Franc"
+}, {
+  "Alphabetic_Code": "BOP",
+  "Currency": "Peso boliviano"
+}, {
+  "Alphabetic_Code": "BAD",
+  "Currency": "Dinar"
+}, {
+  "Alphabetic_Code": "BRB",
+  "Currency": "Cruzeiro"
+}, {
+  "Alphabetic_Code": "BRC",
+  "Currency": "Cruzado"
+}, {
+  "Alphabetic_Code": "BRE",
+  "Currency": "Cruzeiro"
+}, {
+  "Alphabetic_Code": "BRN",
+  "Currency": "New Cruzado"
+}, {
+  "Alphabetic_Code": "BRR",
+  "Currency": "Cruzeiro Real"
+}, {
+  "Alphabetic_Code": "BGJ",
+  "Currency": "Lev A/52"
+}, {
+  "Alphabetic_Code": "BGK",
+  "Currency": "Lev A/62"
+}, {
+  "Alphabetic_Code": "BGL",
+  "Currency": "Lev"
+}, {
+  "Alphabetic_Code": "BUK",
+  "Currency": "Kyat"
+}, {
+  "Alphabetic_Code": "HRD",
+  "Currency": "Croatian Dinar"
+}, {
+  "Alphabetic_Code": "HRK",
+  "Currency": "Croatian Kuna"
+}, {
+  "Alphabetic_Code": "CYP",
+  "Currency": "Cyprus Pound"
+}, {
+  "Alphabetic_Code": "CSJ",
+  "Currency": "Krona A/53"
+}, {
+  "Alphabetic_Code": "CSK",
+  "Currency": "Koruna"
+}, {
+  "Alphabetic_Code": "ECS",
+  "Currency": "Sucre"
+}, {
+  "Alphabetic_Code": "ECV",
+  "Currency": "Unidad de Valor Constante (UVC)"
+}, {
+  "Alphabetic_Code": "GQE",
+  "Currency": "Ekwele"
+}, {
+  "Alphabetic_Code": "EEK",
+  "Currency": "Kroon"
+}, {
+  "Alphabetic_Code": "XEU",
+  "Currency": "European Currency Unit (E.C.U)"
+}, {
+  "Alphabetic_Code": "FIM",
+  "Currency": "Markka"
+}, {
+  "Alphabetic_Code": "GEK",
+  "Currency": "Georgian Coupon"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "DDM",
+  "Currency": "Mark der DDR"
+}, {
+  "Alphabetic_Code": "DEM",
+  "Currency": "Deutsche Mark"
+}, {
+  "Alphabetic_Code": "GHC",
+  "Currency": "Cedi"
+}, {
+  "Alphabetic_Code": "GHP",
+  "Currency": "Ghana Cedi"
+}, {
+  "Alphabetic_Code": "GRD",
+  "Currency": "Drachma"
+}, {
+  "Alphabetic_Code": "GNE",
+  "Currency": "Syli"
+}, {
+  "Alphabetic_Code": "GNS",
+  "Currency": "Syli"
+}, {
+  "Alphabetic_Code": "GWE",
+  "Currency": "Guinea Escudo"
+}, {
+  "Alphabetic_Code": "GWP",
+  "Currency": "Guinea-Bissau Peso"
+}, {
+  "Alphabetic_Code": "ITL",
+  "Currency": "Italian Lira"
+}, {
+  "Alphabetic_Code": "ISJ",
+  "Currency": "Old Krona"
+}, {
+  "Alphabetic_Code": "IEP",
+  "Currency": "Irish Pound"
+}, {
+  "Alphabetic_Code": "ILP",
+  "Currency": "Pound"
+}, {
+  "Alphabetic_Code": "ILR",
+  "Currency": "Old Shekel"
+}, {
+  "Alphabetic_Code": "ITL",
+  "Currency": "Italian Lira"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "LAJ",
+  "Currency": "Pathet Lao Kip"
+}, {
+  "Alphabetic_Code": "LVL",
+  "Currency": "Latvian Lats"
+}, {
+  "Alphabetic_Code": "LVR",
+  "Currency": "Latvian Ruble"
+}, {
+  "Alphabetic_Code": "LSM",
+  "Currency": "Loti"
+}, {
+  "Alphabetic_Code": "ZAL",
+  "Currency": "Financial Rand"
+}, {
+  "Alphabetic_Code": "LTL",
+  "Currency": "Lithuanian Litas"
+}, {
+  "Alphabetic_Code": "LTT",
+  "Currency": "Talonas"
+}, {
+  "Alphabetic_Code": "LUC",
+  "Currency": "Luxembourg Convertible Franc"
+}, {
+  "Alphabetic_Code": "LUF",
+  "Currency": "Luxembourg Franc"
+}, {
+  "Alphabetic_Code": "LUL",
+  "Currency": "Luxembourg Financial Franc"
+}, {
+  "Alphabetic_Code": "MGF",
+  "Currency": "Malagasy Franc"
+}, {
+  "Alphabetic_Code": "MWK",
+  "Currency": "Kwacha"
+}, {
+  "Alphabetic_Code": "MVQ",
+  "Currency": "Maldive Rupee"
+}, {
+  "Alphabetic_Code": "MLF",
+  "Currency": "Mali Franc"
+}, {
+  "Alphabetic_Code": "MTL",
+  "Currency": "Maltese Lira"
+}, {
+  "Alphabetic_Code": "MTP",
+  "Currency": "Maltese Pound"
+}, {
+  "Alphabetic_Code": "MXP",
+  "Currency": "Mexican Peso"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "MZE",
+  "Currency": "Mozambique Escudo"
+}, {
+  "Alphabetic_Code": "MZM",
+  "Currency": "Mozambique Metical"
+}, {
+  "Alphabetic_Code": "NLG",
+  "Currency": "Netherlands Guilder"
+}, {
+  "Alphabetic_Code": "ANG",
+  "Currency": "Netherlands Antillean Guilder"
+}, {
+  "Alphabetic_Code": "NIC",
+  "Currency": "Cordoba"
+}, {
+  "Alphabetic_Code": "PEN",
+  "Currency": "Nuevo Sol"
+}, {
+  "Alphabetic_Code": "PEH",
+  "Currency": "Sol"
+}, {
+  "Alphabetic_Code": "PEI",
+  "Currency": "Inti"
+}, {
+  "Alphabetic_Code": "PES",
+  "Currency": "Sol"
+}, {
+  "Alphabetic_Code": "PLZ",
+  "Currency": "Zloty"
+}, {
+  "Alphabetic_Code": "PTE",
+  "Currency": "Portuguese Escudo"
+}, {
+  "Alphabetic_Code": "ROK",
+  "Currency": "Leu A/52"
+}, {
+  "Alphabetic_Code": "RON",
+  "Currency": "New Romanian Leu"
+}, {
+  "Alphabetic_Code": "ROL",
+  "Currency": "Old Leu"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "ITL",
+  "Currency": "Italian Lira"
+}, {
+  "Alphabetic_Code": "CSD",
+  "Currency": "Serbian Dinar"
+}, {
+  "Alphabetic_Code": "SKK",
+  "Currency": "Slovak Koruna"
+}, {
+  "Alphabetic_Code": "SIT",
+  "Currency": "Tolar"
+}, {
+  "Alphabetic_Code": "ZAL",
+  "Currency": "Financial Rand"
+}, {
+  "Alphabetic_Code": "SDG",
+  "Currency": "Sudanese Pound"
+}, {
+  "Alphabetic_Code": "RHD",
+  "Currency": "Rhodesian Dollar"
+}, {
+  "Alphabetic_Code": "ESA",
+  "Currency": "Spanish Peseta"
+}, {
+  "Alphabetic_Code": "ESB",
+  "Currency": "\"A\" Account (convertible Peseta Account)"
+}, {
+  "Alphabetic_Code": "ESP",
+  "Currency": "Spanish Peseta"
+}, {
+  "Alphabetic_Code": "SDD",
+  "Currency": "Sudanese Dinar"
+}, {
+  "Alphabetic_Code": "SDP",
+  "Currency": "Sudanese Pound"
+}, {
+  "Alphabetic_Code": "SRG",
+  "Currency": "Surinam Guilder"
+}, {
+  "Alphabetic_Code": "CHC",
+  "Currency": "WIR Franc (for electronic)"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "TJR",
+  "Currency": "Tajik Ruble"
+}, {
+  "Alphabetic_Code": "IDR",
+  "Currency": "Rupiah"
+}, {
+  "Alphabetic_Code": "TPE",
+  "Currency": "Timor Escudo"
+}, {
+  "Alphabetic_Code": "TRL",
+  "Currency": "Old Turkish Lira"
+}, {
+  "Alphabetic_Code": "TRY",
+  "Currency": "New Turkish Lira"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "TMM",
+  "Currency": "Turkmenistan Manat"
+}, {
+  "Alphabetic_Code": "UGS",
+  "Currency": "Uganda Shilling"
+}, {
+  "Alphabetic_Code": "UGW",
+  "Currency": "Old Shilling"
+}, {
+  "Alphabetic_Code": "UAK",
+  "Currency": "Karbovanet"
+}, {
+  "Alphabetic_Code": "SUR",
+  "Currency": "Rouble"
+}, {
+  "Alphabetic_Code": "USS",
+  "Currency": "US Dollar (Same day)"
+}, {
+  "Alphabetic_Code": "UYN",
+  "Currency": "Old Uruguay Peso"
+}, {
+  "Alphabetic_Code": "UYP",
+  "Currency": "Uruguayan Peso"
+}, {
+  "Alphabetic_Code": "RUR",
+  "Currency": "Russian Ruble"
+}, {
+  "Alphabetic_Code": "VEB",
+  "Currency": "Bolivar"
+}, {
+  "Alphabetic_Code": "VEF",
+  "Currency": "Bolivar Fuerte"
+}, {
+  "Alphabetic_Code": "VEF",
+  "Currency": "Bolivar"
+}, {
+  "Alphabetic_Code": "VNC",
+  "Currency": "Old Dong"
+}, {
+  "Alphabetic_Code": "YDD",
+  "Currency": "Yemeni Dinar"
+}, {
+  "Alphabetic_Code": "YUD",
+  "Currency": "New Yugoslavian Dinar"
+}, {
+  "Alphabetic_Code": "YUM",
+  "Currency": "New Dinar"
+}, {
+  "Alphabetic_Code": "YUN",
+  "Currency": "Yugoslavian Dinar"
+}, {
+  "Alphabetic_Code": "ZRN",
+  "Currency": "New Zaire"
+}, {
+  "Alphabetic_Code": "ZRZ",
+  "Currency": "Zaire"
+}, {
+  "Alphabetic_Code": "ZMK",
+  "Currency": "Zambian Kwacha"
+}, {
+  "Alphabetic_Code": "ZWC",
+  "Currency": "Rhodesian Dollar"
+}, {
+  "Alphabetic_Code": "ZWD",
+  "Currency": "Zimbabwe Dollar (old)"
+}, {
+  "Alphabetic_Code": "ZWD",
+  "Currency": "Zimbabwe Dollar"
+}, {
+  "Alphabetic_Code": "ZWN",
+  "Currency": "Zimbabwe Dollar (new)"
+}, {
+  "Alphabetic_Code": "ZWR",
+  "Currency": "Zimbabwe Dollar"
+}, {
+  "Alphabetic_Code": "XFO",
+  "Currency": "Gold-Franc"
+}, {
+  "Alphabetic_Code": "XRE",
+  "Currency": "RINET Funds Code"
+}, {
+  "Alphabetic_Code": "XFU",
+  "Currency": "UIC-Franc"
+}]
